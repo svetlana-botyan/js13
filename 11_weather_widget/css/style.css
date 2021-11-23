@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.container {
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.widget{
+    background-image: url(../images/winter.jpg);
+    background-size: cover;
+}
+
+.widget-header {
+    padding: 0.5rem;
+    color:#351a0e;
+}
+
+.description {
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+svg{
+    margin-right: 3px;
+   }
+
+.item-widget {
+    border-bottom: solid 2px #351a0ea2; 
+    
+}   
